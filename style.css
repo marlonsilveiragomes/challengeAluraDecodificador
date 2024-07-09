@@ -322,3 +322,25 @@ textarea {
     width: 336px;
     height: 781px;
 }
+header {
+    display: flex;
+    flex-direction: row;
+}
+.rodape {
+  display: flex;
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 40px;
+  font-style: normal;
+  justify-content: center;
+  color:#0A3871
+
+}
+
+a {
+  width: 32px;
+  height: 32px;
+  margin-top: 10px;
+  padding-left: 10px;
+ 
+}
