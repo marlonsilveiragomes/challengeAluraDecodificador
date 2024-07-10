@@ -4,19 +4,23 @@
 
   
 body {
-    margin:0%;
-    padding: 0;
+   margin: 0;
+   padding: 0;
+   
 }
 
 main {
+    width:40%;
+    height:40%;
     margin-right: 10px;
     margin-left: 20px;
     width: 1440px; /* Largura desejada */
     height: 1024px; /* Altura desejada */
-    margin: auto; /* Centraliza a main horizontalmente */
+    margin: 0;
     background-color: #F3F5FC; /* Cor de fundo para visualização */
     padding: 0; /* Espaçamento interno para visualização */
     box-sizing: border-box; /* Inclui padding na largura/altura total */
+    
 }
 
 .logo {
@@ -29,11 +33,11 @@ main {
     display: flex;
     margin: auto;
     justify-content:left;
-    width: 1440px; /* Largura desejada */
+    width: 1440px; 
     height: px
 }
 
-/*Área com a entrada do texto em que deseja criptografar ou descriptografar*/
+
 
 .box__input {
     display: flex;
@@ -74,15 +78,10 @@ main {
     font-weight: 32px;
     font-style: normal;
     text-align: left;
-    
-
-}
-    
-    
-    
+} 
 
 
-.digite-texto textarea {
+ .digite-texto textarea {
     border: none;
     background: none;
     width: 50%;
@@ -102,7 +101,6 @@ main {
     font-weight: 16;
     font-style: normal;
     margin-bottom: 72px;
-    
 
  
 }
@@ -333,7 +331,9 @@ header {
   font-weight: 40px;
   font-style: normal;
   justify-content: center;
-  color:#0A3871
+  color:aquamarine;
+  background-color: #0A3871;
+  
 
 }
 
